@@ -110,7 +110,7 @@ namespace parameters {
 
 
 const char     CRYPTONOTE_NAME[]                             = "rektcoin";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001904e029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101f1b97616b437df9304e5c8f485f08ecf0388cc900b6095697e10aa96c3fad1ad";
 const uint32_t GENESIS_NONCE                                 = 70;
 const uint64_t GENESIS_TIMESTAMP                             = 1515479625;
 
@@ -144,8 +144,8 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1510d13336228debfee9c918ce505efe225d8c94d045fa115";
 
 const std::initializer_list<const char*> SEED_NODES = {
-   "",
-   ""
+   "13.57.210.132:17425",
+   "52.53.241.215:17425"
 };
 
 struct CheckpointData {
